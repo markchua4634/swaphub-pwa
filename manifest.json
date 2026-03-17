@@ -1,0 +1,41 @@
+{
+  "name": "SwapHub - Sacred Exchange",
+  "short_name": "SwapHub",
+  "description": "Swap Amulets. Sacred Exchange Platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0A0A",
+  "theme_color": "#D4AF37",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/D4AF37/000000?text=SH",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/D4AF37/000000?text=SH",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Browse Amulets",
+      "short_name": "Browse",
+      "description": "Browse all amulet listings",
+      "url": "/?page=browse",
+      "icons": [{ "src": "https://via.placeholder.com/96x96/D4AF37/000000?text=B", "sizes": "96x96" }]
+    },
+    {
+      "name": "Post Listing",
+      "short_name": "Post",
+      "description": "Post a new amulet listing",
+      "url": "/?page=post",
+      "icons": [{ "src": "https://via.placeholder.com/96x96/D4AF37/000000?text=+", "sizes": "96x96" }]
+    }
+  ]
+}
